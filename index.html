@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        
+        <table border="1" width="700px" height="300px" cellspacing="0px" cellpadding="20px" style="text-align: center;">
+            <tfoot><tr><td colspan="2" style="align-items: center;">&copy; CopyRights Issued</td></tr></tfoot>
+            <thead>
+                <tr style="background-color: aquamarine;" >
+                    <th >Login</th>
+                    <th>Register</th>
+                </tr>
+            </thead>
+            <tbody class="table-data">
+                <tr style="background-color: darkgrey;">
+                    <form action="Login-action.html" method="post" target="_self">
+                        <td>
+                            <label ><strong>Email ID:</strong></label><br>
+                            <input type="email" autofocus required size="30px"><br><br>
+                            <label><strong>Password:</strong></label><br>
+                            <input type="password" required size="30px" /><br><br>
+                            <button>Submit</button>
+                        </td> 
+                    </form>  
+                    <form action="Register-action.html" method="post" target="_self">
+                        <td>
+                            <label><strong>Name:</strong></label><br>
+                            <input type="text" size="30px"/><br><br>
+                            <label><strong>Email ID:</strong></label><br>
+                            <input type="email" size="30px" required/><br><br>
+                            <label><strong>Password:</strong></label><br>
+                            <input type="password" size="30px" required/><br><br>
+                            <label><strong>Re-Enter Password:</strong></label><br>
+                            <input type="password" size="30px" required/><br><br>
+                            <button>Register</button>
+                        </td>
+                    </form>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
