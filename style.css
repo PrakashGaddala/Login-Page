@@ -1,0 +1,154 @@
+/*index css */
+.login-body{
+    background-color: bisque;
+    position: relative;
+    left:300px;
+    top:100px;
+    animation-name: login-background;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes login-background{
+    10%{
+        background-color: lightblue;
+    }
+    20%{
+        background-color: lightgrey;
+    }30%{
+        background-color: lightyellow;
+    }40%{
+        background-color: lightgreen;
+    }50%{
+        background-color: lightcoral;
+    }
+}
+.index-table{
+    text-align: center;
+}
+.index-table-head{
+    background-color: aquamarine;
+}
+.index-table-body{
+    background-color: darkgray;
+}
+
+/*login-action css */
+.login-table{
+    table-layout: auto;
+    
+}
+.tfoot{
+    text-align: center;
+}
+.wrap_class{
+    height: 200px;  
+}
+.Div_class {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    
+}
+.Div_class div{
+    border: solid;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    
+}
+.Div_class div:hover{
+    height: 150px;
+    width: 150px;
+}
+/*register-action css */
+.register-div{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(14, 197, 127);
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    animation-name: reg_div_anim;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes reg_div_anim{
+    from{
+        background-color:  rgb(14, 197, 127);
+        width: 50px;
+        height: 50px;
+    }to{
+        background-color: blueviolet;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}
+.register-div:hover{
+    animation-name: reg-div-hover;
+    
+}
+@keyframes reg-div-hover{
+    from{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: burlywood;
+    }to{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: rgb(134, 76, 88);
+    }
+}
+
+.register-div h4{
+    display: none;
+}
+.register-div h4{
+    
+    height: 50px;
+    width: 220px;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    right: 70px;
+    border: 1px;
+    background-color: blue;
+}
+
+.register-div:hover h4{
+    display: block;
+    animation-name: reg_h4_anim;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes reg_h4_anim{
+    from{
+        background-color: lightgreen;
+    }to{
+        background-color: rgb(170, 170, 34);
+        color: white;
+    }
+}
+.reg-table{
+    margin-top: 30px;
+    margin-left: 250px;
+table-layout: auto;
+background-color: pink;
+}
+.reg-tfoot{
+    text-align: center;
+}
